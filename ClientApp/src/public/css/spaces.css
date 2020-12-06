@@ -1,0 +1,94 @@
+.space{
+    height: 200px;
+    padding: 20px;
+}
+.space div.element{
+    background-color: rgb(205, 204, 241);
+    padding: 20px;
+    height: 100%;
+    cursor: pointer;
+}
+.space button{
+    float: right;
+    margin-top: -20px;
+}
+.space button#delete{
+    margin-right: -20px;
+}
+.space h3{
+    padding-top: 5px;
+    cursor: text;
+}
+.spacesListe{
+    text-align: center;
+}
+.spacesListe h1{
+    color:white;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 300%;
+    padding-top: 50px;
+}
+.spacesListe .form-group{
+    padding: 50px;
+}
+.spacesListe .col-xs-6 h3{
+    font-size: 23px;
+}
+/** taskes page css**/
+table{
+    background-color: rgb(228, 235, 245);
+}
+table tr{
+    height: 50px;
+}
+table.table{
+    border: solid #464DF0;
+}
+table.table thead th{
+    border-bottom: solid #464DF0;
+    text-align: center;
+    padding: 20px;
+}
+table.table tbody td{
+    text-align: left;
+    padding: 10px;
+}
+table button{
+    width: 50px;
+    margin-left: 5px;
+}
+.row .col-xs-4 div:first-child,#search-field,.row .col-xs-4 label{
+    display: none;
+}
+
+/** Model css**/
+.modal-header,.modal-footer{
+    background-color:#464DF0 ;
+    color: rgb(228, 235, 245);
+    height: 80px;
+    padding: 30px;
+}
+.modal-header button{
+    margin-right: -30px;
+    margin-top: -30px;
+}
+.modal-content{
+    background-color: rgb(228, 235, 245);
+}
+.modal-body input{
+    width: 80%;
+}
+.modal-body button{
+    margin-top: -30px;
+}
+.modal-body table{
+    width: 75%;
+    margin-top: 70px;
+}
+.modal-body table button{
+    margin: 0px;
+}
+.modal-body .pagination{
+    position: absolute;
+    margin-left: -95%;
+}

@@ -1,0 +1,47 @@
+/*** page home css begin****/
+body{
+    background:#464DF0 linear-gradient(90deg, #C0FBFB, transparent);
+}
+.home{
+    padding: 2%;
+    text-align: center;
+}
+.home p{
+    color:black;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 200%;
+    padding: 3%;
+}
+.home h1{
+    color:white;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 400%;
+}
+.home img{
+    width: 200px;
+}
+/*** page home css end****/
+/*** pages authentification css begin****/
+.home form{
+    text-align: left;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 20px;
+}
+.home form button{
+    float: right;
+    background-color: #464DF0;
+    color:#C0FBFB;
+}
+.home form .col-lg-6{
+    padding-left: 50px;
+}
+.home form .col-lg-6 p{
+    height: 10px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
+/*** pages authentification css end****/

@@ -1,0 +1,31 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "A RESTfull API, the first test for to do tasks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "restfull",
+    "todo",
+    "task",
+    "nodejs"
+  ],
+  "author": "Guerrab Leila",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jwt-simple": "^0.5.6",
+    "mysql": "^2.18.1",
+    "sha1": "^1.1.1"
+  },
+  "engines":{
+    "node":"14.15.0",
+    "npm":"6.14.8"
+  }
+}
